@@ -1,0 +1,68 @@
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<title>小皮的网站（试运行）</title>
+<body bgcolor="#FFFFF0">
+<font size="4">
+<p> 欢迎来到小皮的网站！</p></font>
+<script> 
+function show(){ 
+var date = new Date(); //日期对象 
+var now = ""; 
+now = date.getFullYear()+"年"; //读英文就行了 
+now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了 
+now = now + date.getDate()+"日"; 
+now = now + date.getHours()+"时"; 
+now = now + date.getMinutes()+"分"; 
+now = now + date.getSeconds()+"秒"; 
+document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串 
+setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法 
+} 
+</script> 
+<body onload="show()"> <!-- 网页加载时调用一次 以后就自动调用了--> 
+<div id="nowDiv"></div> 
+</body>
+<p><a href="radio.index.html">
+
+
+</a>
+</p>
+<script type="text/javascript">
+function f1(){
+var v=document.getElementById("obj1");
+location.href="https://cn.bing.com/search?q="+v.value;
+}
+</script>
+<input id="obj1" type=text style="width:100px;"/>
+<button id="btn2" onclick="f1()">必应搜索</button>
+<font size="5"> 
+<li> <a href="http://jvgm.cn/">java手机乐园</a> </li>
+<li> <a href="http://dcms.net.cn/index.php"> DCMS社交网站</a> </li>
+<p>各种wap游戏↓<p>
+<li> <a href="http://yz.wap.city/">勇者传说</a> </li>
+<li> <a href="http://nc.wap.city/">开心农场</a> </li>
+<li> <a href="http://hd.wap.city/">海盗岛</a> </li>
+<p>各种老设备论坛↓</p>
+<li> <a href="https://www.dospy.wang/forum.php?forumlist=1&mobile=2">dospy塞班论坛</a> </li>
+<li> <a href="http://www.blackberryfans.org/forum.php">黑莓粉丝网</a> </li>
+<p>老版本软件/游戏下载<p>
+<li> <a href="https://antipa.cn/">antipa</a> </li>
+<li> <a href="https://www.iosipa.cn/index.php">iOSIPA网</a> </li>
+<li> <a href="http://starcourt.top/">星庭安卓商店</a> </li>
+<li> <a href="https://www.wandoujia.com/">豌豆荚</a> </li>
+<li><a
+href="https://ejjava.github.io/">E简网</a></li>
+<li><a
+href="http://java.52emu.cn/">52emu网</a></li>
+
+<p>友情链接</p>
+<li> <a href="https://img.fy6b.com/">枫音图床</a> </li>
+<li><a
+href="http://jp-tyo-ntt-1.natfrp.cloud:53556/index.php">PyyGame</a></li>
+<li><a
+href="http://xiaopi0213.ys168.com">小皮的网盘小站</a></li>
+<li><a href="https://www.radio.cn/pc-portal/erji/radioStation.html">云听</a></li>
+<p>最后感谢zyh对本站建设的大力支持!</p>
+<p>本网站现在在试运行阶段，可能仍有诸多问题，欢迎通过xiaopi0213@qq.com进行反馈，谢谢！</p>
+</font><br/>
+<a href="http://wapmz.com/in/10"><img src="http://wapmz.com/cn/small/10" alt="wapmz.com"></a>
