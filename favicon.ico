@@ -1,0 +1,1 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script charset='gb2312' type='text/javascript'>alert('亲，你未上传图片，请先上传图片！');history.go(-1);</script> 
